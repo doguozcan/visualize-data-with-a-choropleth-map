@@ -13,7 +13,9 @@ body {
 }
 
 h1,
-h3 {
+h3,
+p,
+a {
   font-family: "Inter", sans-serif;
   color: white;
 }

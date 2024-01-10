@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const width = 1000;
-    const height = 1000;
+    const height = 650;
 
     const svg = d3
       .select(mapContainer.current)
@@ -144,6 +144,12 @@ function App() {
       </h3>
       <div ref={mapContainer} className="map-container"></div>
       <div id="tooltip"></div>
+      <p style={{ textAlign: "right", padding: 15 }}>
+        Source:{" "}
+        <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx">
+          USDA Economic Research Service
+        </a>
+      </p>
     </div>
   );
 }
